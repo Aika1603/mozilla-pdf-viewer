@@ -13,4 +13,9 @@ Route::get('/pdf-viewer', function () {
     })->name('pdf-viewer');
 ```
 
+## how to use on your view
+```
+<iframe frameborder="0" src="{{ url('pdf-viewer') }}"?file={{ PDF_LINK }}" width="100%" style="height:500px;"></iframe>
+```
+
 > Salam satu coding :coffee:
